@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /wp-admin
+Disallow: /wp-includes
+Disallow: /katalog/korzina
+Disallow: /katalog/rezultat
+Disallow: /tekst-dlya-glavnoj
+Disallow: /tekst-dlya-glavnoj-20151023
+Disallow: /*product_order=
+Disallow: /*product_search=
+Disallow: /*my_update_destination=
+Host: www.itural.ru
+Sitemap: http://www.itural.ru/sitemap.xml

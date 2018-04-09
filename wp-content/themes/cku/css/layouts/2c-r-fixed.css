@@ -1,0 +1,38 @@
+/*
+LAYOUT: One-Column (Right) Fixed
+DESCRIPTION: Two-column 950px fixed layout with one sidebar right of content
+*/
+
+#main {
+    width:960px;
+    margin:0 auto;
+    overflow:hidden;
+    position:relative;
+}
+#container {float:left;}
+#content {width:670px;overflow:hidden;}
+.main-aside{width:260px;float:right;position:relative;Ъ
+#secondary {
+    clear:right;
+}
+#subsidiary {
+    width:960px;
+    margin:0 auto;
+    overflow:hidden;
+}
+#subsidiary .aside {
+    width:300px;
+    float:left;
+    margin:0 20px 0 0;
+}
+#subsidiary #third {
+    margin:0;
+}
+#main .module{margin-right: 10px;}
+
+.single-post{}
+
+.fixed {
+	width:960px; 
+	margin:0 auto;
+}

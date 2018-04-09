@@ -1,0 +1,28 @@
+/*
+Theme Name: CKU Theme
+Theme URI: http://www.itural.ru
+Description: Based on Arras Theme
+Author: ]aka[
+Author URI: http://www.itural.ru
+Version: 1.0.0
+Tags:
+*/
+
+/* Trick the WordPress Theme Bot *Evil* */
+.aligncenter			{ display: block; margin: 0 auto; }
+.alignright				{ float: right; margin: 0 0 1em 1em; }
+.alignleft				{ float: left; margin: 0 1em 1em 0; }
+.floatleft				{ float: left; }
+.floatright				{ float: right; }
+img.aligncenter, img.alignright, 
+img.alignleft			{ border: 3px solid #EEE; }
+
+.wp-caption { border: 1px solid #DDD; text-align: center; background: #F3F3F3; padding-top: 4px; margin: 10px }
+.wp-caption img { margin: 0; padding: 0; border: none }
+.wp-caption .wp-caption-text { font-size: 11px; line-height: 17px; padding: 0 4px 5px; margin: 0 }
+
+/* Default Stylesheet */
+@import url('css/default.css');
+
+/* User Override Stylesheet */
+@import url('css/user.css');
